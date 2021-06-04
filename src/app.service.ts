@@ -4,10 +4,7 @@ import * as si from 'systeminformation';
 @Injectable()
 export class AppService {
   async runProcess() {
-    const data = await si.diskLayout();
+    const data = await si.currentLoad();
     return data;
-  }
-  getHello(): string {
-    return 'Hello World!';
   }
 }
