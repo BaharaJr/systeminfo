@@ -7,7 +7,7 @@ export class AppController {
 
   @Get('systemInfo')
   async getMac(@Query() query: any) {
-    const data = await this.appService.runProcess();
+    const data = await this.appService.runProcess({ query });
     return data;
   }
 }
