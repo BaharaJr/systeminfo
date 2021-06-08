@@ -1,0 +1,20 @@
+showOsInfo
+shwMemory
+showShellInfo
+showVersions
+showCpu
+showCpuFlags
+showServices<accepts an argument of any service name i.e docker>
+showCpuCache
+showCpuCurrentSpeed
+showCurrentLoad <shows the current system load on each cpu>
+showFullLoad
+showMemoryLayout
+showFsSize
+showFsOpenFiles
+showBlockDevices
+showFsStats
+showDisksIO
+showDiskLayout
+showUsers
+
